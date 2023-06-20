@@ -6,4 +6,5 @@
  *
  */
 module practicaclase {
+	requires java.sql;
 }
