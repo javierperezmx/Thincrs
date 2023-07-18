@@ -11,7 +11,7 @@ public class Alumnosapp {
 	static final String PASS = "Chuchomysql_01";
 	//static final String QUERY= "//"
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Exception{
 		Connection conn = DriverManager.getConnection(DB_URL, USER, PASS);
 	}
 		
@@ -20,7 +20,7 @@ public class Alumnosapp {
 		
 		//Establecer el programa
 		
-	//Programa programa = Programa.KINDER;
+	//Programa programa = Programa.KINDER;	
 		
 	//switch (programa) {
 	//case KINDER:
